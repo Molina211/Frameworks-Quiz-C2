@@ -1,0 +1,7 @@
+{
+  "name": "ReactNativePractica",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}

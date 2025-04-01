@@ -1,0 +1,17 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Proveedores</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card *ngFor="let proveedor of proveedores">
+    <ion-card-header>
+      <ion-card-title>{{ proveedor.nombre }}</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <p><strong>Empresa:</strong> {{ proveedor.empresa }}</p>
+      <p><strong>Teléfono:</strong> {{ proveedor.telefono }}</p>
+    </ion-card-content>
+  </ion-card>
+</ion-content>

@@ -1,0 +1,25 @@
+.empleado-card {
+    background: white;
+    padding: 16px;
+    margin: 16px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-left: 6px solid #3880ff; /* Color azul de Ionic */
+  }
+  
+  .empleado-card h2 {
+    color: #222;
+    font-size: 1.4rem;
+    margin-bottom: 8px;
+  }
+  
+  .empleado-card p {
+    color: #555;
+    font-size: 1rem;
+    margin: 4px 0;
+  }
+  
+  .empleado-card strong {
+    color: #000;
+  }
+  

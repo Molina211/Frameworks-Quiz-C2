@@ -1,0 +1,18 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Empleados</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card *ngFor="let empleado of empleados">
+    <ion-card-header>
+      <ion-card-title>{{ empleado.nombre }}</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <p><strong>Puesto:</strong> {{ empleado.puesto }}</p>
+      <p><strong>Teléfono:</strong> {{ empleado.telefono }}</p>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
+

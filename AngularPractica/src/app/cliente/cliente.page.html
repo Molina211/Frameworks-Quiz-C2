@@ -1,0 +1,17 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Clientes</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card *ngFor="let cliente of clientes">
+    <ion-card-header>
+      <ion-card-title>{{ cliente.nombre }}</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <p><strong>Email:</strong> {{ cliente.email }}</p>
+      <p><strong>Teléfono:</strong> {{ cliente.telefono }}</p>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
